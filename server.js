@@ -24,7 +24,7 @@ app.use(logger("dev"));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://heroku_v9g6ht26:4gkmro3l9dmlkhf7ibaopljesg@ds045001.mlab.com:45001/heroku_v9g6ht26";
 
 var exphbs = require("express-handlebars");
 
