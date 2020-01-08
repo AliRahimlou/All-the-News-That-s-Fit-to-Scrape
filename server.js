@@ -5,9 +5,6 @@ var mongoose = require('mongoose');
 var path = require('path');
 var routes = require('./routes/routes')
 
-// Scraping tools
-var request = require('request');
-var cheerio = require('cheerio');
 
 // Requiring Note and Article models
 var db = require("./models");
